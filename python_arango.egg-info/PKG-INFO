@@ -1,3 +1,70 @@
+Metadata-Version: 2.1
+Name: python-arango
+Version: 7.9.0
+Summary: Python Driver for ArangoDB
+Author-email: Joohwan Oh <joohwan.oh@outlook.com>
+Maintainer-email: Joohwan Oh <joohwan.oh@outlook.com>, Alexandru Petenchea <alexandru.petenchea@arangodb.com>, Anthony Mahanna <anthony.mahanna@arangodb.com>
+License: MIT License
+        
+        Copyright (c) 2016-2021 Joohwan Oh
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/ArangoDB-Community/python-arango
+Keywords: arangodb,python,driver
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3>=1.26.0
+Requires-Dist: requests
+Requires-Dist: requests_toolbelt
+Requires-Dist: PyJWT
+Requires-Dist: setuptools>=42
+Requires-Dist: importlib_metadata>=4.7.1
+Requires-Dist: packaging>=23.1
+Provides-Extra: dev
+Requires-Dist: black>=22.3.0; extra == "dev"
+Requires-Dist: flake8>=4.0.1; extra == "dev"
+Requires-Dist: isort>=5.10.1; extra == "dev"
+Requires-Dist: mypy>=0.942; extra == "dev"
+Requires-Dist: mock; extra == "dev"
+Requires-Dist: pre-commit>=2.17.0; extra == "dev"
+Requires-Dist: pytest>=7.1.1; extra == "dev"
+Requires-Dist: pytest-cov>=3.0.0; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: sphinx_rtd_theme; extra == "dev"
+Requires-Dist: types-pkg_resources; extra == "dev"
+Requires-Dist: types-requests; extra == "dev"
+Requires-Dist: types-setuptools; extra == "dev"
+
 ![Logo](https://user-images.githubusercontent.com/2701938/108583516-c3576680-72ee-11eb-883f-2d9b52e74e45.png)
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/ArangoDB-Community/python-arango/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ArangoDB-Community/python-arango/tree/main)
